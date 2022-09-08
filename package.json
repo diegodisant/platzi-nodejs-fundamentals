@@ -1,0 +1,15 @@
+{
+  "name": "platzi-nodejs-fundamentals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com-diegodisant:diegodisant/platzi-nodejs-fundamentals.git",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "pm2": "^5.2.0"
+  },
+  "scripts": {
+    "watch": "nodemon index.js",
+    "pm2-start": "pm2 start index.js"
+  }
+}
